@@ -12,7 +12,7 @@ The primary tool used for this application was JavaScript.  Javascript is increa
 
 ## Results:
 
-Four files were created to present the webpage.  These are the [html.index](https://github.com/rciminera/UFOs/blob/main/html.index), [app.js](https://github.com/rciminera/UFOs/blob/main/html.index), [data.js](https://github.com/rciminera/UFOs/blob/main/html.index), and [style.css](https://github.com/rciminera/UFOs/blob/main/style.css) files.
+Four files were created to present the webpage.  These are the [html.index](https://github.com/rciminera/UFOs/blob/main/index.html), [app.js](https://github.com/rciminera/UFOs/blob/main/static/js/app.js), [data.js](https://github.com/rciminera/UFOs/blob/main/static/js/data.js), and [style.css](https://github.com/rciminera/UFOs/blob/main/static/css/style.css) files.
 
 
 
@@ -22,32 +22,32 @@ I. Filter Elements:
 
 Five list elements for filtering were created in the index.html file. These list elements are date, city, state, country, and shape.
 
-![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/Screenshots/five_elements.png)
+![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/screen%20shots/five_elements.png)
 
 II. Event Listener:
 
 The event listener set up to detect changes to each filter in the app.js file. When data is entered into any one of the 5 filters, the following code senses that a change was made from the default values when the web page is initially loaded.
 
-![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/Screenshots/listener.png)
+![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/screen%20shots/listener.png)
 
 III. Create a Filter Function
 
 The listener will call the updateFilters() function whenever htere is a change in any of the filters.  This function saves the element, value, and the id of the filter that was changed.  
 
-![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/Screenshots/updateFilters.png)
+![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/screen%20shots/updateFilters.png)
 
 IV. Create Table of Filtered Data
 
 The filterTable function is called by the updateFilters function.  This function loops through all of the filters and keeps any data in the original data.js file that matches the filter values.
 
-![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/Screenshots/filterTable.png)
+![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/screen%20shots/filterTable.png)
 
 
 V. Create Webpage
 
 The UFO webpage filters webpage filters the table correctly based on user input. 
 
-![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/Screenshots/webpage_table.png)
+![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/screen%20shots/webpage_table.png)
 
 
 Summary:
