@@ -6,7 +6,7 @@ In this project an application was created to display UFO sightings on a webpage
 
 The primary tool used for this application was JavaScript.  Javascript is increasingly used in advanced programming and machine learning settings. It is also used to make websites more functional and dynamic.  In addition to Javascript, HTML and CSS were used to complete the webpage.
 
-![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/Screenshots/opening_webpage.png)
+![GitHubLogo](https://github.com/rciminera/UFOs/blob/main/screen%20shots/webpage_opening.png)
 
 
 
